@@ -84,8 +84,8 @@ a.home {
 }
 
 .burrger-img {
-    height: 80vh;
-    width: 38vw;
+    height: 100%;
+    width: 100%;
 }
 
 .light-color {
