@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap By SKILLHUB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body class="light-color">
+    <div class="background-image ">
+        <div class="bg-gradiyant">
+            <!-- nav start -->
+            <div class="container-fluid ">
+                <nav class="navbar navbar-expand-lg nav-color ">
+                    <div class="container-fluid ">
+                        <a class="navbar-brand brand" href="#">Restoran</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse  navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav ms-auto home-about ">
+                                <a class="nav-link home" href="#">HOME</a>
+                                <a class="nav-link" href="#">ABOUT</a>
+                                <a class="nav-link" href="#">SERVICE</a>
+                                <a class="nav-link" href="#">MENU</a>
+                                <a class="nav-link" href="#">PAGES</a>
+                                <a class="nav-link" href="#">CONTACT</a>
+                                <button type="button" class="book-btn">BOOK A TABLE</button>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- nav end -->
+            <!-- burgur contain start -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 ">
+                        <h1 class="main">Enjoy Our <br>Delicious Meal</h1>
+                        <p class="lorem">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
+                            diam
+                            et eos. Clita
+                            erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <button type="button" class="book-button">BOOK A TABLE</button>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 overflow-hidden">
+                        <img src="./img/hero.png" class="burrger-img" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- burgur contain end -->
+        </div>
+    </div>
+    <!-- for image stat -->
+    <div class="container">
+        <div class="row">
+            <div class="main-bg col-6 col-lg-3 col-md-3 col-sm-6">
+                <div class="for-img">
+                    <i class="bi bi-person-bounding-box icon-bg"></i>
+                    <h3 class="master">Master Chefs</h3>
+                    <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                </div>
+            </div>
+            <div class="main-bg col-6 col-lg-3 col-md-3 col-sm-6">
+                <div class="for-img">
+                    <i class="bi bi-bag-check icon-bg"></i>
+                    <h3 class="master">Quality Food</h3>
+                    <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                </div>
+            </div>
+            <div class="main-bg col-6 col-lg-3 col-md-3 col-sm-6">
+                <div class="for-img">
+                    <i class="bi bi-cart2 icon-bg"></i>
+
+                    <h3 class="master">Master Chefs</h3>
+                    <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                </div>
+            </div>
+            <div class="main-bg col-6 col-lg-3 col-md-3 col-sm-6">
+                <div class="for-img">
+                    <i class="bi bi-headset icon-bg"></i>
+                    <h3 class="master">Master Chefs</h3>
+                    <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- for image end -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"
+        integrity="sha512-B1lby8cGcAUU3GR+Fd809/ZxgHbfwJMp0jLTVfHiArTuUt++VqSlJpaJvhNtRf3NERaxDNmmxkdx2o+aHd4bvw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        gsap.from(".burrger-img", { rotate: 360, duration: 20, repeat: -1 })
+    </script>
+</body>
+
+</html>

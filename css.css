@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-image {
+    background-image: url("./img/bg-hero.jpg");
+    height: 110vh;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.bg-gradiyant {
+    background-color: rgb(31, 31, 69, 0.9);
+    height: 110vh;
+    margin-bottom: 4vw;
+}
+
+.nav-color {
+    background-color: transparent;
+}
+
+.text {
+    color: white;
+}
+
+.brand {
+    color: rgb(255, 152, 18);
+    font-size: 7vh;
+    font-weight: bold;
+}
+
+.brand:hover {
+    color: rgb(255, 152, 18);
+    font-size: 7vh;
+    font-weight: bold;
+}
+
+.home-about a {
+    color: white;
+    margin: 0px 1vw;
+    font-weight: bold;
+}
+
+a.home {
+    color: rgb(255, 152, 18);
+
+}
+
+.home-about a:hover {
+    color: rgb(255, 152, 18);
+
+}
+
+.book-btn {
+    background-color: rgb(255, 152, 18);
+    padding: 1vh 2vw;
+    border: none;
+    color: white;
+    border-radius: 2%;
+
+}
+
+.main {
+    color: white;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-size: 4vw;
+    margin-top: 15vh;
+}
+
+.lorem {
+    color: white;
+    font-size: 1.3vw;
+}
+
+.book-button {
+    background-color: rgb(255, 152, 18);
+    padding: 2vh 3vw;
+    font-size: 1.5vw;
+    color: white;
+
+}
+
+.burrger-img {
+    height: 80vh;
+    width: 38vw;
+}
+
+.light-color {
+    background-color: aliceblue;
+}
+
+.for-img {
+    background-color: white;
+    padding: 1.5vw 2vw;
+    margin: 15vh 0vh;
+}
+
+.icon-bg {
+    font-size: 4vw;
+}
+
+.master {
+    font-size: 2vh;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.for-img:hover {
+    background-color: rgb(255, 152, 18);
+    color: white;
+
+}
+
+.main-bg {
+    color: rgb(255, 152, 18);
+
+}
+
+.for-img .icon-bg:hover {
+    color: white;
+}
